@@ -1,0 +1,92 @@
+*{
+    overflow: auto;
+}
+
+
+
+body {
+    background-image: url('../imagenes_pagina/cielo.gif');
+    background-repeat: repeat; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.1px;
+    height: 100vh; 
+}
+
+
+
+.imagen_consola{
+    width: 190px;
+    height: 150px;
+}
+
+.Form {
+    position: fixed; 
+    top: 20px; 
+    right: 150px; 
+    z-index: 999; 
+}
+
+.Form .form {
+    width: 20px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
+}
+
+.carrito {
+    position: fixed; 
+    top: 20px; 
+    right: 25px; 
+    z-index: 999; 
+}
+
+.carrito .cesta {
+    width: 26px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
+}
+
+.iniciar {
+    position: fixed; 
+    top: 20px; 
+    right: 70px; 
+    z-index: 999; 
+}
+
+.iniciar .sesion {
+    width: 21px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
+}
+
+.Chat {
+    position: fixed; 
+    top: 13px; 
+    right: 105px; 
+    z-index: 999; 
+}
+
+.Chat .chat {
+    width: 35px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
+}
+
+.producto{
+    margin: 30px;
+    margin-top: 30px;
+    top: 10px; 
+    left: 10px; 
+}
+
+#buscar {
+    position: fixed; 
+    top: 10px; 
+    left: 10px; 
+}
