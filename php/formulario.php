@@ -7,6 +7,7 @@
     <title>Formulario</title>
 </head>
 <body>
+    <a href="incioSesionActivado.php">Volver a la tienda</a>
     <form action="formulario.php" method="post">
         <h1>Formulario</h1>
         <div class="form-group">

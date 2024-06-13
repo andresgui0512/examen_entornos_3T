@@ -1,6 +1,7 @@
 body{
-    background-image: url("../imagenes_pagina/nintendo.jpg");
+    background-image: url("../imagenes_pagina/RDR2v2.gif");
     background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 form {
@@ -55,6 +56,19 @@ button {
 
 button:hover {
     background-color: #218838;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(178, 178, 252); 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue ;
 }
 
 #enviar{

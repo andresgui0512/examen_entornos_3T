@@ -1,48 +1,70 @@
-body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url("../imagenes_pagina/nintendo.jpg");
+body {
+    background-image: url("../imagenes_pagina/COD.gif");
     background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-form{
-    background-color: white;
-    margin: auto;
+form {
+    max-width: 500px; 
+    margin: 50px auto; 
+    padding: 20px;
+    border: 1px solid #121277;
+    border-radius: 10px;
+    background-color: rgba(222, 130, 210, 0.8); 
+}
+
+h1 {
     text-align: center;
-    width: 50%;
-    border-radius: 3%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 16%;
+    margin-bottom: 20px;
+    color: #d4d458;
 }
 
-p{
-    font-size: large;
+.form-group {
+    margin-bottom: 15px;
 }
 
-button{
-    margin-top: 5%;
-    margin-left: 40%;
-    margin-right: 40%;
-    margin-bottom: 5%;
+.form-group label {
+    font-weight: bold;
+    color: #721372;
+}
+
+.form-group input {
+    width: calc(100% - 10px); 
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
     border: none;
-    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
     cursor: pointer;
-    transition: 0.2s ease-in-out;
-    background-color: #008080;
-    color: #ffffff;
-    font-size: 90%;
-    padding: 10px;
+    border-radius: 5px;
 }
 
-button:hover{
-    cursor: pointer;
-    background-color: whitesmoke;
-    color: #008080;
+button:hover {
+    background-color: #218838;
 }
 
-input{
-    margin-left: 10%;
-    padding: 10px;
-    border-radius: 3px;
-    width: 40%;
-    height: 10%;
+a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color:  rgb(178, 178, 252); 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+#iniciar {
+    font-family: 'Times New Roman', Times, serif;
 }
