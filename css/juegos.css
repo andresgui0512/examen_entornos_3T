@@ -1,0 +1,137 @@
+body {
+    background-image: url('../imagenes_pagina/r.gif');
+    background-repeat: repeat; 
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Creepster', cursive;
+    text-align: center;
+    color: red;
+}
+
+button{
+    font-family: 'Bangers', cursive;
+    color: red;
+    background-color: blue;
+    margin-left: 380px;
+    margin-top: 100px;
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.iniciar {
+    position: fixed; 
+    top: 20px; 
+    right: 15px; 
+    z-index: 999; 
+}
+
+.iniciar .sesion {
+    width: 21px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
+}
+
+.Cerrar {
+    position: fixed; 
+    top: 20px; 
+    right: 150px; 
+    z-index: 999; 
+}
+
+.Form {
+    position: fixed; 
+    top: 20px; 
+    right: 150px; 
+    z-index: 999; 
+}
+
+.Form .form {
+    width: 20px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
+}
+
+.imagen_juego{
+    width: 50px;
+    height: 100px;
+}
+
+.buscar{
+    width: 50px;
+    height: auto;
+}
+
+h1{
+    margin-top: 50px;
+}
+
+button{
+	padding: 5px;
+	margin: 7px;
+	border-style: solid;
+	border-radius: 10px;
+	font-family: 'Courier New', Courier, monospace;
+	
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    min-width: 160px;
+}
+
+.dropdown-content form {
+    display: block;
+    text-decoration: none;
+    background: none;
+    border: none;
+}
+
+.dropdown-content form button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px; 
+    padding: 8px 12px; 
+    width: 100%;
+    text-align: left;
+}
+
+.dropdown-content form button:hover {
+    background-color: #f1f1f1;
+    width: 90%;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    top: 100%;
+    left: 0;
+    width: 90%;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}

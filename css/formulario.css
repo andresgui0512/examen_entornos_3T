@@ -1,0 +1,62 @@
+body{
+    background-image: url("../imagenes_pagina/nintendo.jpg");
+    background-size: cover;
+}
+
+form {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #121277;
+    border-radius: 10px;
+    background-color: #de82d2;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    color: #d4d458;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    width: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    color: #721372;
+}
+
+.form-group input {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#enviar{
+    font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

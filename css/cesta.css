@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("../imagenes_pagina/fallout.jpg");
+    background-repeat: repeat; 
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Added background color for better readability */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+    margin-top: 20px;
+}
+
+.producto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid;
+    padding: 10px 0;
+}
+
+.producto:last-child {
+    border-bottom: none;
+}
+
+.producto h2 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #555;
+    flex: 2;
+}
+
+.producto .details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 20px;
+    flex: 1;
+}
+
+.producto p {
+    margin: 5px 0;
+    color: #666;
+    text-align: right; /* Aligns the text to the right */
+}
+
+button {
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #e65c55;
+}
+
+.checkout {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.checkout button {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1em;
+}
+
+.empty-cart {
+    text-align: center;
+    color: #999;
+    font-size: 1.2em;
+}
